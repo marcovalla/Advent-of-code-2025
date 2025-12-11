@@ -1,0 +1,29 @@
+# --- Bytecode / Compilados ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Entornos Virtuales (MUY IMPORTANTE) ---
+# Nombres comunes de carpetas de entornos
+env/
+venv/
+.venv/
+.env/
+
+# --- Variables de Entorno y Secretos (SEGURIDAD) ---
+.env
+.env.local
+
+# --- Distribución y Empaquetado ---
+dist/
+build/
+*.egg-info/
+
+# --- Logs y Bases de Datos locales ---
+*.log
+*.sqlite3
+
+# --- IDEs y Editores (Opcional pero recomendado) ---
+.vscode/
+.idea/
+*.swp
