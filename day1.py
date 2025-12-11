@@ -38,7 +38,6 @@ def getNumberOfTimesDialPointAt0():
     numberOfTimes = 0
     dial = 50
     dialAt0 = False
-    print (dial, numberOfTimes)
     for element in elements:
         rotation = element[0]
         if (len(element) > 3):
@@ -78,8 +77,6 @@ def getNumberOfTimesDialPointAt0():
             dialAt0 = True
         else:
             dialAt0 = False
-        print(element)
-        print(dial, numberOfTimes)
 
     return numberOfTimes
 
